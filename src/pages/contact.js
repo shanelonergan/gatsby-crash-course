@@ -20,6 +20,8 @@ const contact = () => {
                     </li>
                 </ul>
             </form>
+            <br/>
+            <p>Or you can reach me on twitter <a href="https://twitter.com/shane__lonergan">@shane__lonergan</a></p>
         </div>
     );
 }
