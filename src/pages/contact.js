@@ -1,9 +1,11 @@
 import React from 'react';
 import Footer from "../components/footer";
+import Nav from "../components/nav";
 
 const contact = () => {
     return (
         <div>
+            <Nav />
             <h1>Contact Me</h1>
             <form action="mailto:sptlonergan@gmail.com">
                 <ul>
