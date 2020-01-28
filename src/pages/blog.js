@@ -1,16 +1,13 @@
 import React from 'react';
-import Footer from "../components/footer";
-import Nav from "../components/nav";
+import Layout from "../components/layout"
 
 
 const blog = () => {
     return (
-        <div>
-            <Nav />
+        <Layout>
             <h1>Blog</h1>
             <p>Posts will show up here later on</p>
-            <Footer />
-        </div>
+        </Layout>
     );
 }
 

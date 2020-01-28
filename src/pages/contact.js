@@ -1,11 +1,9 @@
 import React from 'react';
-import Footer from "../components/footer";
-import Nav from "../components/nav";
+import Layout from "../components/layout"
 
 const contact = () => {
     return (
-        <div>
-            <Nav />
+        <Layout>
             <h1>Contact Me</h1>
             <form action="mailto:sptlonergan@gmail.com">
                 <ul>
@@ -25,8 +23,7 @@ const contact = () => {
             </form>
             <br/>
             <p>Or you can reach me on twitter <a href="https://twitter.com/shane__lonergan">@shane__lonergan</a></p>
-            <Footer/>
-        </div>
+        </Layout>
     );
 }
 
