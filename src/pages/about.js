@@ -5,11 +5,8 @@ import Nav from "../components/nav";
 
 const about = () => {
     return (
-        <>
-        <header>
-            <Nav />
-        </header>
         <div>
+            {/* <Nav /> */}
             <h1>About Me</h1>
             <p>I am a developer learning to use Gatsby.js. WOO!</p>
             <br/>
@@ -18,7 +15,6 @@ const about = () => {
             </p>
             <Footer />
         </div>
-        </>
     );
 }
 
