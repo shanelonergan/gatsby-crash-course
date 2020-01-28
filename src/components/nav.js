@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 const nav = () => {
     return (
-        <header>
+        <header style={{'text-align':'center'}}>
             <p>
                 Shane Lonergan |
                 <Link to="/"> Home</Link> |

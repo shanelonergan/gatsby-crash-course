@@ -1,7 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import Footer from "../components/footer";
-import Nav from "../components/nav";
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -20,3 +18,4 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
