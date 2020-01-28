@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from "../components/footer";
 
 const contact = () => {
     return (
@@ -22,6 +23,7 @@ const contact = () => {
             </form>
             <br/>
             <p>Or you can reach me on twitter <a href="https://twitter.com/shane__lonergan">@shane__lonergan</a></p>
+            <Footer/>
         </div>
     );
 }
